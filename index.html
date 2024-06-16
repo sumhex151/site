@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html lang="en"><head>
+<script src="files/html-guard.min.js"></script>
+<script>
+HtmlGuard.protections.antiDevTools();
+HtmlGuard.protections.blockContextMenu();
+HtmlGuard.protections.blockDrag();
+HtmlGuard.protections.blockSelection();
+HtmlGuard.protections.blockConsoleOutput();
+</script>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
