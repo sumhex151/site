@@ -63,3 +63,24 @@ footer {
 .footer-buttons img:hover {
     border-color: #37eb34;
 }
+
+.gifs-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  align-items: flex-start;
+}
+
+.gifs-container img {
+  flex: 0 0 auto;
+  height: auto;
+  display: block;
+}
+
+.gifs-container .row-break {
+  flex-basis: 100%;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
