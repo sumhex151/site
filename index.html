@@ -35,13 +35,26 @@
 <script>
   var audio = document.getElementById("myaudio");
   audio.volume = 0.1;
+  
+  document.addEventListener('DOMContentLoaded', function() {
+        const discordLink = document.getElementById('discord-link');
+        
+        if (discordLink) {
+            discordLink.addEventListener('click', function(event) {
+                event.preventDefault();
+                alert('Discord: sumhex151');
+            });
+        } else {
+            console.error("err");
+        }
+    });
 </script>
 
     <h2>Socials</h2>
     <ul>
-        <li><a href="https://discordlookup.com/user/678593213388292116"><i class="fa-brands fa-discord" aria-hidden="true"></i> Discord</a></li>
+        <li><a href="about:blank" id="discord-link"><i class="fa-brands fa-discord" aria-hidden="true"></i> Discord</a></li>
         <li><a href="https://steamcommunity.com/profiles/76561198155915638"><i class="fa-brands fa-steam" aria-hidden="true"></i> Steam</a></li>
-        <li><a href="https://t.me/birddyna"><i class="fa-brands fa-telegram" aria-hidden="true"></i> Telegram</a></li
+        <li><a href="https://t.me/birddyna"><i class="fa-brands fa-telegram" aria-hidden="true"></i> Telegram</a></li>
         <li><a href="https://github.com/sumhex151"><i class="fa-brands fa-github" aria-hidden="true"></i> Github</a>
     </ul>
 </div>
@@ -91,21 +104,14 @@
 <img src="files/no-button.gif" width="88" height="31">
 <img src="files/nocookie.gif" width="88" height="31">
 <img src="files/nofuckingthanks.gif" width="88" height="31">
-<img src="files/discord_now.gif" width="88" height="31">
+<a href="https://discord.com/"><img src="files/discord_now.gif" width="88" height="31"></a>
 <img src="files/eftpbutton.gif" width="88" height="31">
-<img src="files/firen00bs.gif" width="88" height="31">
+<a href="https://www.mozilla.org/en-US/firefox/all/#product-desktop-release"><img src="files/firen00bs.gif" width="88" height="31"></a>
 <img src="files/winamp3.gif" width="88" height="31">
 <img src="files/best_free.gif" width="88" height="31">
 </div>
 
 <div align='center'><img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fsumhex.ru%2F&label=Visits+today+%2F+Total+visits&color=%2300cc00"><br / ></div>
-<div style="display: flex; align-items: center; justify-content: center;">
-    <img src="files/cat.jpg" width="570" height="380" style="margin-right: 0px; margin-left: 160px;" />
-    <div></div>
-</div>
 
 
 </small></body></html>
-
-
-
